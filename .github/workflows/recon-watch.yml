@@ -1,0 +1,44 @@
+name: Recon watch
+
+on:
+  schedule:
+    # Off the quarter-hour: GitHub's scheduler is busiest (and most delayed) at :00/:15/:30/:45.
+    - cron: "7,22,37,52 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: recon-watch
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check festoolrecon.com
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: python3 recon_watch.py --now
+
+      - name: Save state when it changed
+        run: |
+          git add state/recon-state.json logs/alerts.log
+          if git diff --cached --quiet; then echo "no change"; exit 0; fi
+          git -c user.name="recon-watch" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
+            commit -qm "state: $(date -u +%FT%TZ)"
+          for i in 1 2 3; do git pull -q --rebase && git push -q && exit 0; sleep 5; done
+          exit 1
+
+      - name: Alert if this workflow itself failed
+        if: failure()
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: |
+          curl -sS -H "Title: Recon watch run failed" -H "Priority: high" \
+            -H "Click: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" \
+            -d "The Festool Recon check failed; the Actions watcher will look at it too." "https://ntfy.sh/$NTFY_TOPIC"

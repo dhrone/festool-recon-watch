@@ -23,6 +23,7 @@ reply (a Cloudflare challenge) it stops and backs off (Retry-After, else
 """
 import html
 import json
+import os
 import random
 import re
 import subprocess
@@ -64,9 +65,22 @@ def save_state(st):
     tmp.replace(STATE)
 
 
-def notify(title, body):
-    script = f"display notification {json.dumps(body)} with title {json.dumps(title)} sound name \"Glass\""
-    subprocess.run(["osascript", "-e", script], check=False)
+def notify(title, body, click=None, priority="default"):
+    """ntfy push when NTFY_TOPIC is set (GitHub Actions), else a macOS notification."""
+    topic = os.environ.get("NTFY_TOPIC")
+    if topic:
+        headers = {"Title": title.encode("utf-8"), "Priority": priority, "Tags": "hammer_and_wrench"}
+        if click:
+            headers["Click"] = click
+        req = urllib.request.Request(f"https://ntfy.sh/{topic}", data=body.encode("utf-8"), headers=headers)
+        try:
+            urllib.request.urlopen(req, timeout=20).read()
+        except Exception as e:  # an alert that fails to send must not lose the state update
+            log(f"ntfy failed: {e}")
+        return
+    if sys.platform == "darwin":
+        script = f"display notification {json.dumps(body)} with title {json.dumps(title)} sound name \"Glass\""
+        subprocess.run(["osascript", "-e", script], check=False)
 
 
 class Blocked(Exception):
@@ -97,18 +111,17 @@ HANDLE = re.compile(r'/products/([a-z0-9-]+)')
 
 
 def fetch_home(cached):
-    """The featured product: {'title', 'handle', 'etag'}; cached on 304."""
-    body, etag = get(BASE + "/", (cached or {}).get("etag"), "text/html")
-    if body is None and cached:
-        return cached
+    """The featured product: {'title', 'handle'}. No If-None-Match: the home
+    page's ETag carries a per-request suffix, so it never matches."""
+    body, _ = get(BASE + "/", None, "text/html")
     text = body.decode("utf-8", "replace")
     m = H1.search(text)
     if not m:
         if "cf-chl" in text or "challenge" in text.lower()[:5000]:
             raise Blocked("challenge page")
-        return {"title": None, "handle": None, "etag": etag}
+        return {"title": None, "handle": None}
     h = HANDLE.search(text)
-    return {"title": html.unescape(m.group(1)).strip(), "handle": h.group(1) if h else None, "etag": etag}
+    return {"title": html.unescape(m.group(1)).strip(), "handle": h.group(1) if h else None}
 
 
 def fetch_page(n, cached):
@@ -203,7 +216,8 @@ def run():
         elif home["title"]:
             url = f"{BASE}/products/{home['handle']}" if home["handle"] else BASE
             record([f"HOME {home['title']} {money(featured)}  {url}"])
-            notify("Festool Recon: new tool on the home page", f"{home['title']} {money(featured)}".strip())
+            notify("Festool Recon: new tool on the home page", f"{home['title']} {money(featured)}".strip(),
+                   click=url, priority="high")
 
     # Background: catalogue changes, logged only.
     first_run = not st["products"]
@@ -240,7 +254,7 @@ def run():
 
 
 if __name__ == "__main__":
-    if "--now" not in sys.argv:
+    if "--now" not in sys.argv and not os.environ.get("CI"):
         time.sleep(random.uniform(0, 90))
     try:
         run()

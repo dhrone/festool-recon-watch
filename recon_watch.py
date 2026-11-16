@@ -236,7 +236,6 @@ def run():
     for pid, p in current.items():
         known[pid] = {**p, "listed": True, "first_seen": known.get(pid, {}).get("first_seen", now().isoformat())}
     st["pages"] = pages
-    st["last_ok"] = now().isoformat()
     save_state(st)
 
     in_stock = sum(p["available"] for p in current.values())

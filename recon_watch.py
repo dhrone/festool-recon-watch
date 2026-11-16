@@ -40,6 +40,7 @@ PAGE_SIZE = 250
 MAX_PAGES = 10
 HERE = Path(__file__).resolve().parent
 STATE = HERE / "state" / "recon-state.json"
+CACHE = HERE / "state" / "page-cache.json"
 ALERTS = HERE / "logs" / "alerts.log"
 SKIP_TYPES = {"Placeholder"}  # the "Wow, that went fast!!!" $0.01 item
 
@@ -53,16 +54,25 @@ def log(msg):
 
 
 def load_state():
+    st = {"products": {}, "pages": {}, "backoff_until": None, "backoff_s": 0}
     if STATE.exists():
-        return json.loads(STATE.read_text())
-    return {"products": {}, "pages": {}, "backoff_until": None, "backoff_s": 0}
+        st.update(json.loads(STATE.read_text()))
+    st["pages"] = json.loads(CACHE.read_text()) if CACHE.exists() else {}
+    return st
+
+
+def write_json(path, obj):
+    path.parent.mkdir(exist_ok=True)
+    tmp = path.with_suffix(".tmp")
+    tmp.write_text(json.dumps(obj, indent=1, sort_keys=True))
+    tmp.replace(path)
 
 
 def save_state(st):
-    STATE.parent.mkdir(exist_ok=True)
-    tmp = STATE.with_suffix(".tmp")
-    tmp.write_text(json.dumps(st, indent=1, sort_keys=True))
-    tmp.replace(STATE)
+    """The page cache (ETags + bodies) goes to an uncommitted file: the ETags
+    differ between GitHub runners, so committing them would commit every run."""
+    write_json(STATE, {k: v for k, v in st.items() if k != "pages"})
+    write_json(CACHE, st["pages"])
 
 
 def notify(title, body, click=None, priority="default"):

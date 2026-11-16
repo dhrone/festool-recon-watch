@@ -1,11 +1,10 @@
 name: Recon watch
 
 on:
-  # The real 15-minute timer is cron-job.org calling workflow_dispatch: GitHub's scheduler
-  # drops and delays runs (45% of a 3-hourly schedule never ran, Sep-Nov 2026). The schedule
-  # stays as a backup; a duplicate run is harmless (it finds nothing new, and runs never overlap).
-  schedule:
-    - cron: "7,22,37,52 * * * *"
+  # The 15-minute timer is cron-job.org calling workflow_dispatch (every :00/:15/:30/:45).
+  # No GitHub schedule: it drops and delays runs (45% of a 3-hourly schedule never ran,
+  # Sep-Nov 2026; this repo's never fired in its first two hours), and a backup would double
+  # the requests to Recon once it did. healthchecks.io alerts if the timer stops.
   workflow_dispatch:
 
 permissions:

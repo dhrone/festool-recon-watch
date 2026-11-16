@@ -1,8 +1,10 @@
 name: Recon watch
 
 on:
+  # The real 15-minute timer is cron-job.org calling workflow_dispatch: GitHub's scheduler
+  # drops and delays runs (45% of a 3-hourly schedule never ran, Sep-Nov 2026). The schedule
+  # stays as a backup; a duplicate run is harmless (it finds nothing new, and runs never overlap).
   schedule:
-    # Off the quarter-hour: GitHub's scheduler is busiest (and most delayed) at :00/:15/:30/:45.
     - cron: "7,22,37,52 * * * *"
   workflow_dispatch:
 
@@ -33,6 +35,15 @@ jobs:
             commit -qm "state: $(date -u +%FT%TZ)"
           for i in 1 2 3; do git pull -q --rebase && git push -q && exit 0; sleep 5; done
           exit 1
+
+      - name: Ping healthchecks.io (missed-check alarm)
+        if: always()
+        env:
+          HC_PING_URL: ${{ secrets.HC_PING_URL }}
+        run: |
+          [ -n "$HC_PING_URL" ] || { echo "HC_PING_URL not set"; exit 0; }
+          suffix=""; [ "${{ job.status }}" = "success" ] || suffix="/fail"
+          curl -fsS -m 10 --retry 3 -o /dev/null "$HC_PING_URL$suffix" || echo "ping failed"
 
       - name: Alert if this workflow itself failed
         if: failure()

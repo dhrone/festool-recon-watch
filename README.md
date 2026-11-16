@@ -1,6 +1,6 @@
 # Festool Recon watch
 
-`recon_watch.py` checks festoolrecon.com every 15 minutes on GitHub Actions (`.github/workflows/recon-watch.yml`, public repo dhrone/festool-recon-watch, at :07/:22/:37/:52; GitHub can delay scheduled runs by several minutes) and pushes alerts through ntfy (`NTFY_TOPIC` secret; the topic is also in `~/.config/ntfy-topic`). State and `logs/alerts.log` are committed by the workflow when they change. The old Mac job (`launchd.plist`) is disabled; run locally without `NTFY_TOPIC` and it falls back to a macOS notification.
+`recon_watch.py` checks festoolrecon.com every 15 minutes on GitHub Actions (`.github/workflows/recon-watch.yml`, public repo dhrone/festool-recon-watch). The timer is cron-job.org calling the workflow_dispatch API (GitHub's own scheduler skipped 45% of another repo's runs); the :07/:22/:37/:52 schedule is a backup. Every run pings healthchecks.io (`HC_PING_URL` secret), which alerts through ntfy if no check succeeds for 40 minutes and pushes alerts through ntfy (`NTFY_TOPIC` secret; the topic is also in `~/.config/ntfy-topic`). State and `logs/alerts.log` are committed by the workflow when they change. The old Mac job (`launchd.plist`) is disabled; run locally without `NTFY_TOPIC` and it falls back to a macOS notification.
 
 Recon features one tool at a time on its home page. **When that tool changes, a macOS notification names it with its price** (`HOME` in `logs/alerts.log`, with the link). When it sells out the home page shows a "Wow, that went fast!!!" placeholder; that is logged as `SOLD OUT`, not notified.
 

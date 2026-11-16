@@ -242,4 +242,7 @@ def run():
 if __name__ == "__main__":
     if "--now" not in sys.argv:
         time.sleep(random.uniform(0, 90))
-    run()
+    try:
+        run()
+    except (urllib.error.URLError, TimeoutError, OSError) as e:
+        log(f"network error, skipped this check: {e}")  # next run retries; no backoff

@@ -3927,7 +3927,7 @@
    "type": "Other"
   },
   "7413794537559": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.328514+00:00",
    "handle": "router-of-1010-rebq-plus",
    "id": "7413794537559",
@@ -4747,7 +4747,7 @@
    "type": "Other"
   },
   "7742184489047": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.328239+00:00",
    "handle": "router-of-1400-eq-f-plus",
    "id": "7742184489047",
@@ -4887,7 +4887,7 @@
    "type": "Other"
   },
   "7846346227799": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.328187+00:00",
    "handle": "tid-18-basic-set-tpc-18-4",
    "id": "7846346227799",

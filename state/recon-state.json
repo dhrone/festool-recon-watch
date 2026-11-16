@@ -287,7 +287,7 @@
    "type": "Vac"
   },
   "11836956245": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.329490+00:00",
    "handle": "conturo-ka-65-hand-held-edge-bander",
    "id": "11836956245",

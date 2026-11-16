@@ -2007,7 +2007,7 @@
    "type": "Saw"
   },
   "4688143908951": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.329118+00:00",
    "handle": "random-orbital-sander-ets-125-req-plus",
    "id": "4688143908951",
@@ -3157,7 +3157,7 @@
    "type": "Other"
   },
   "6919484211287": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.328772+00:00",
    "handle": "finish-delta-sander-dts-400-req-plus-2",
    "id": "6919484211287",
@@ -3257,7 +3257,7 @@
    "type": "Saw"
   },
   "6924801441879": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.328739+00:00",
    "handle": "cordless-drill-cxs-12-2-5-set",
    "id": "6924801441879",
@@ -3417,7 +3417,7 @@
    "type": "Sander"
   },
   "6970409844823": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.328687+00:00",
    "handle": "cordless-reciprocating-saw-rsc-18-eb-basic",
    "id": "6970409844823",

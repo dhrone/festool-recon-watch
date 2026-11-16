@@ -1,6 +1,6 @@
 # Festool Recon watch
 
-`recon_watch.py` checks festoolrecon.com every 15 minutes (launchd job `org.ritchey.recon-watch`, copy of the plist in `launchd.plist`).
+`recon_watch.py` checks festoolrecon.com every 15 minutes on GitHub Actions (`.github/workflows/recon-watch.yml`, public repo dhrone/festool-recon-watch, at :07/:22/:37/:52; GitHub can delay scheduled runs by several minutes) and pushes alerts through ntfy (`NTFY_TOPIC` secret; the topic is also in `~/.config/ntfy-topic`). State and `logs/alerts.log` are committed by the workflow when they change. The old Mac job (`launchd.plist`) is disabled; run locally without `NTFY_TOPIC` and it falls back to a macOS notification.
 
 Recon features one tool at a time on its home page. **When that tool changes, a macOS notification names it with its price** (`HOME` in `logs/alerts.log`, with the link). When it sells out the home page shows a "Wow, that went fast!!!" placeholder; that is logged as `SOLD OUT`, not notified.
 
@@ -29,4 +29,4 @@ That comes to at most 16 small requests an hour, fewer than one person browsing 
     launchctl bootout gui/$(id -u)/org.ritchey.recon-watch     # stop
     launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/org.ritchey.recon-watch.plist  # start
 
-Runs only while the Mac is awake; a check missed during sleep runs on wake.
+The dhrone/actions-watcher repo watches this workflow along with the rest.

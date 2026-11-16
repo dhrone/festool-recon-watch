@@ -2,8 +2,8 @@
  "backoff_s": 0,
  "backoff_until": null,
  "home": {
-  "handle": "router-of-1400-eq-f-plus",
-  "title": "Router OF 1400 EQ-F-Plus"
+  "handle": "cordless-drill-cxs-12-2-5-set",
+  "title": "Cordless Drill CXS 12 2,5-Set"
  },
  "products": {
   "11717227925": {
@@ -4747,7 +4747,7 @@
    "type": "Other"
   },
   "7742184489047": {
-   "available": true,
+   "available": false,
    "first_seen": "2026-11-10T13:27:36.328239+00:00",
    "handle": "router-of-1400-eq-f-plus",
    "id": "7742184489047",

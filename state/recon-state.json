@@ -2,8 +2,8 @@
  "backoff_s": 0,
  "backoff_until": null,
  "home": {
-  "handle": "tid-18-basic-set-tpc-18-4",
-  "title": "TID 18 Basic-Set TPC 18/4"
+  "handle": "plunge-cut-track-saw-ts-75-eq-f-plus",
+  "title": "Track Saw TS 75 EQ-F-Plus"
  },
  "products": {
   "11717227925": {
@@ -3417,7 +3417,7 @@
    "type": "Sander"
   },
   "6970409844823": {
-   "available": true,
+   "available": false,
    "first_seen": "2026-11-10T13:27:36.328687+00:00",
    "handle": "cordless-reciprocating-saw-rsc-18-eb-basic",
    "id": "6970409844823",

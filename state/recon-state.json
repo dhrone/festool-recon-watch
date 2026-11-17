@@ -2757,7 +2757,7 @@
    "type": "Sander"
   },
   "6782915739735": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.328902+00:00",
    "handle": "random-orbital-sander-ets-ec150-5-eq-plus-1",
    "id": "6782915739735",
@@ -3117,7 +3117,7 @@
    "type": "Other"
   },
   "6919470841943": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.328784+00:00",
    "handle": "plunge-cut-track-saw-ts-60-keb-f-plus",
    "id": "6919470841943",
@@ -4657,7 +4657,7 @@
    "type": "Other"
   },
   "7629089865815": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.328270+00:00",
    "handle": "df-500-rq-set",
    "id": "7629089865815",
@@ -4717,7 +4717,7 @@
    "type": "Joiner"
   },
   "7712120766551": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.328248+00:00",
    "handle": "hlc-82-eb-f-basic",
    "id": "7712120766551",

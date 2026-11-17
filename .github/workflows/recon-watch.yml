@@ -19,20 +19,41 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
+      # A run that waited for a runner past the next slot is stale: the next run covers it,
+      # and its state would conflict with the commits made meanwhile (2026-11-16 17:00 run,
+      # queued 69 min). Skip it (success, so healthchecks.io stays quiet).
+      - name: Skip if queued too long
+        id: fresh
+        run: |
+          age=$(( $(date +%s) - $(date -d "${{ github.run_started_at }}" +%s) ))
+          echo "queued ${age}s"
+          if [ "$age" -gt 600 ]; then echo "stale run; skipping"; echo "ok=false" >> "$GITHUB_OUTPUT"; else echo "ok=true" >> "$GITHUB_OUTPUT"; fi
+
       - uses: actions/checkout@v4
+        if: steps.fresh.outputs.ok == 'true'
+        with:
+          ref: main  # the latest state, not the commit at dispatch time
 
       - name: Check festoolrecon.com
+        if: steps.fresh.outputs.ok == 'true'
         env:
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
         run: python3 recon_watch.py --now
 
       - name: Save state when it changed
+        if: steps.fresh.outputs.ok == 'true'
         run: |
           git add state/recon-state.json logs/alerts.log
           if git diff --cached --quiet; then echo "no change"; exit 0; fi
           git -c user.name="recon-watch" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
             commit -qm "state: $(date -u +%FT%TZ)"
-          for i in 1 2 3; do git pull -q --rebase && git push -q && exit 0; sleep 5; done
+          for i in 1 2 3; do
+            if ! git pull -q --rebase; then
+              # A newer run committed state meanwhile: its state is newer, keep it.
+              git rebase --abort; echo "state conflict; keeping the newer commit"; exit 0
+            fi
+            git push -q && exit 0; sleep 5
+          done
           exit 1
 
       - name: Ping healthchecks.io (missed-check alarm)

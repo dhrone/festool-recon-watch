@@ -2,8 +2,8 @@
  "backoff_s": 0,
  "backoff_until": null,
  "home": {
-  "handle": "finish-delta-sander-dts-400-req-plus-2",
-  "title": "Finish Delta Sander DTS 400 REQ-Plus"
+  "handle": "random-orbital-sander-ets-125-req-plus",
+  "title": "Random Orbital Sander ETS 125 REQ-Plus"
  },
  "products": {
   "11717227925": {

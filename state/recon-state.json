@@ -2,8 +2,8 @@
  "backoff_s": 0,
  "backoff_until": null,
  "home": {
-  "handle": "random-orbital-sander-ets-ec150-5-eq-plus-1",
-  "title": "Random Orbital Sander ETS EC 150/5 EQ-Plus"
+  "handle": "df-500-rq-set",
+  "title": "DF 500 RQ-Set"
  },
  "products": {
   "11717227925": {
@@ -2757,7 +2757,7 @@
    "type": "Sander"
   },
   "6782915739735": {
-   "available": true,
+   "available": false,
    "first_seen": "2026-11-10T13:27:36.328902+00:00",
    "handle": "random-orbital-sander-ets-ec150-5-eq-plus-1",
    "id": "6782915739735",

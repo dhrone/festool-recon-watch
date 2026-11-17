@@ -2,8 +2,8 @@
  "backoff_s": 0,
  "backoff_until": null,
  "home": {
-  "handle": "cordless-drill-cxs-12-2-5-set",
-  "title": "Cordless Drill CXS 12 2,5-Set"
+  "handle": "finish-delta-sander-dts-400-req-plus-2",
+  "title": "Finish Delta Sander DTS 400 REQ-Plus"
  },
  "products": {
   "11717227925": {
@@ -3257,7 +3257,7 @@
    "type": "Saw"
   },
   "6924801441879": {
-   "available": true,
+   "available": false,
    "first_seen": "2026-11-10T13:27:36.328739+00:00",
    "handle": "cordless-drill-cxs-12-2-5-set",
    "id": "6924801441879",

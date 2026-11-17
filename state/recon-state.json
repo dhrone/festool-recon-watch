@@ -2,8 +2,8 @@
  "backoff_s": 0,
  "backoff_until": null,
  "home": {
-  "handle": "router-of-1010-rebq-plus",
-  "title": "Router OF 1010 REBQ-Plus"
+  "handle": "tid-18-basic-set-tpc-18-4",
+  "title": "TID 18 Basic-Set TPC 18/4"
  },
  "products": {
   "11717227925": {
@@ -3927,7 +3927,7 @@
    "type": "Other"
   },
   "7413794537559": {
-   "available": true,
+   "available": false,
    "first_seen": "2026-11-10T13:27:36.328514+00:00",
    "handle": "router-of-1010-rebq-plus",
    "id": "7413794537559",

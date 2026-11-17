@@ -2,8 +2,8 @@
  "backoff_s": 0,
  "backoff_until": null,
  "home": {
-  "handle": "hlc-82-eb-f-basic",
-  "title": "HLC 82 EB-F-Basic"
+  "handle": "random-orbital-sander-ets-ec150-5-eq-plus-1",
+  "title": "Random Orbital Sander ETS EC 150/5 EQ-Plus"
  },
  "products": {
   "11717227925": {
@@ -4717,7 +4717,7 @@
    "type": "Joiner"
   },
   "7712120766551": {
-   "available": true,
+   "available": false,
    "first_seen": "2026-11-10T13:27:36.328248+00:00",
    "handle": "hlc-82-eb-f-basic",
    "id": "7712120766551",

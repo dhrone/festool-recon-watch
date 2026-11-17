@@ -2,8 +2,8 @@
  "backoff_s": 0,
  "backoff_until": null,
  "home": {
-  "handle": "random-orbital-sander-ets-125-req-plus",
-  "title": "Random Orbital Sander ETS 125 REQ-Plus"
+  "handle": "router-of-1010-rebq-plus",
+  "title": "Router OF 1010 REBQ-Plus"
  },
  "products": {
   "11717227925": {
@@ -2007,7 +2007,7 @@
    "type": "Saw"
   },
   "4688143908951": {
-   "available": true,
+   "available": false,
    "first_seen": "2026-11-10T13:27:36.329118+00:00",
    "handle": "random-orbital-sander-ets-125-req-plus",
    "id": "4688143908951",

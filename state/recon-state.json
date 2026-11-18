@@ -1,6 +1,6 @@
 {
- "backoff_s": 0,
- "backoff_until": null,
+ "backoff_s": 60,
+ "backoff_until": "2026-11-18T15:46:34.475746+00:00",
  "home": {
   "handle": "plunge-cut-track-saw-ts-60-keb-f-plus",
   "title": "Track Saw TS 60 KEB-F-Plus"

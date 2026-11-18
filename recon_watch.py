@@ -6,9 +6,9 @@ alert (a macOS notification naming the tool, its price and link). When the
 featured tool sells out the home page shows a "Wow, that went fast!!!"
 placeholder; that is logged, not notified.
 
-In the background it also reads the store's catalogue, public Shopify JSON at
-/products.json?limit=250&page=N (about 3 pages, ~500 listings, mostly old and
-sold out), and logs (no notification):
+In the background, once an hour, it also reads the store's catalogue, public
+Shopify JSON at /products.json?limit=250&page=N (about 3 pages, ~500 listings,
+mostly old and sold out), and logs (no notification):
   NEW       a product id never seen before (in stock or not)
   RESTOCK   a known product that was sold out, or gone from the list, and is now in stock
 Every request sends If-None-Match, so an unchanged page costs a 304 and no body.
@@ -19,7 +19,9 @@ The first run only records what is there.
 Politeness: one run every 15 min (launchd), a random 0-90 s start delay, a few
 seconds between pages, an honest User-Agent, and on 429/403/5xx or a non-JSON
 reply (a Cloudflare challenge) it stops and backs off (Retry-After, else
-30 min doubling to 4 h) instead of retrying.
+30 min doubling to 4 h) instead of retrying. A short 429 on the catalogue only
+(Retry-After up to 15 min) skips the catalogue for that run, with no pause and
+no push: the home-page alert has already gone out.
 """
 import html
 import json
@@ -43,6 +45,8 @@ STATE = HERE / "state" / "recon-state.json"
 CACHE = HERE / "state" / "page-cache.json"
 ALERTS = HERE / "logs" / "alerts.log"
 SKIP_TYPES = {"Placeholder"}  # the "Wow, that went fast!!!" $0.01 item
+CATALOGUE_EVERY = timedelta(minutes=55)  # the catalogue is background; the home page is checked every run
+FORCE_CATALOGUE = "--catalogue" in sys.argv
 
 
 def now():
@@ -189,32 +193,20 @@ def run():
         log(f"backing off until {st['backoff_until']}")
         return
 
-    # 1. The home page: the main alert.
+    # 1. The home page: the main alert, sent before the catalogue is touched.
     try:
         home = fetch_home(st.get("home"))
     except Blocked as b:
         return back_off(st, "home page", b)
-
-    # 2. The catalogue, for prices and the background log.
-    products, pages = [], {}
-    for n in range(1, MAX_PAGES + 1):
-        time.sleep(random.uniform(3, 8))
-        cached = st["pages"].get(str(n))
-        try:
-            items, page_state = fetch_page(n, cached)
-        except Blocked as b:
-            return back_off(st, f"catalogue page {n}", b)
-        pages[str(n)] = cached if page_state is True else page_state
-        products += items
-        if len(items) < PAGE_SIZE:
-            break
     st["backoff_s"], st["backoff_until"] = 0, None
 
-    by_handle = {p["handle"]: p for p in products}
+    known = st["products"]
+    by_handle = {p["handle"]: p for p in known.values()}
     old_home = st.get("home")
     st["home"] = home
     featured = by_handle.get(home["handle"]) if home["handle"] else None
-    placeholder = featured is not None and featured["type"] in SKIP_TYPES
+    placeholder = home["title"] is not None and (
+        (featured is not None and featured["type"] in SKIP_TYPES) or "went fast" in home["title"].lower())
     if old_home is None:
         log(f"first run: home page shows {home['title']!r}")
     elif home["title"] is None and old_home.get("title") is not None:
@@ -229,9 +221,34 @@ def run():
             notify("Festool Recon: new tool on the home page", f"{home['title']} {money(featured)}".strip(),
                    click=url, priority="high")
 
+    # 2. The catalogue (background log only): once an hour, not every run.
+    last = st.get("catalogue_at")
+    if not FORCE_CATALOGUE and known and last and now() - datetime.fromisoformat(last) < CATALOGUE_EVERY:
+        save_state(st)
+        log(f"ok: home {home['title']!r}; catalogue checked at {last[11:16]} UTC")
+        return
+    products, pages = [], {}
+    for n in range(1, MAX_PAGES + 1):
+        time.sleep(random.uniform(3, 8))
+        cached = st["pages"].get(str(n))
+        try:
+            items, page_state = fetch_page(n, cached)
+        except Blocked as b:
+            if b.status == 429 and (b.retry_after or 0) <= 900:
+                # A short rate limit on the catalogue: skip it this time, no pause, no push.
+                # (Seen 2026-11-18 on GitHub runners, Retry-After about a minute.)
+                save_state(st)
+                log(f"catalogue page {n}: HTTP 429 (Retry-After {b.retry_after}); skipped the catalogue this run")
+                return
+            return back_off(st, f"catalogue page {n}", b)
+        pages[str(n)] = cached if page_state is True else page_state
+        products += items
+        if len(items) < PAGE_SIZE:
+            break
+    st["catalogue_at"] = now().isoformat()
+
     # Background: catalogue changes, logged only.
-    first_run = not st["products"]
-    known = st["products"]
+    first_run = not known
     current = {p["id"]: p for p in products if p["type"] not in SKIP_TYPES}
     new, back = [], []
     for pid, p in current.items():

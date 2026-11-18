@@ -1,6 +1,6 @@
 {
- "backoff_s": 60,
- "backoff_until": "2026-11-18T18:16:42.850505+00:00",
+ "backoff_s": 0,
+ "backoff_until": null,
  "home": {
   "handle": "sliding-compound-miter-saw-kapex-ks-120-reb-2019-model",
   "title": "Miter Saw KAPEX KS 120 REB"

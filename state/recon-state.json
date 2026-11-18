@@ -2,8 +2,8 @@
  "backoff_s": 0,
  "backoff_until": null,
  "home": {
-  "handle": "df-500-rq-set",
-  "title": "DF 500 RQ-Set"
+  "handle": "plunge-cut-track-saw-ts-60-keb-f-plus",
+  "title": "Track Saw TS 60 KEB-F-Plus"
  },
  "products": {
   "11717227925": {
@@ -4657,7 +4657,7 @@
    "type": "Other"
   },
   "7629089865815": {
-   "available": true,
+   "available": false,
    "first_seen": "2026-11-10T13:27:36.328270+00:00",
    "handle": "df-500-rq-set",
    "id": "7629089865815",

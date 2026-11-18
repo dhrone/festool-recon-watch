@@ -1,9 +1,9 @@
 {
- "backoff_s": 60,
- "backoff_until": "2026-11-18T15:46:34.475746+00:00",
+ "backoff_s": 0,
+ "backoff_until": null,
  "home": {
-  "handle": "plunge-cut-track-saw-ts-60-keb-f-plus",
-  "title": "Track Saw TS 60 KEB-F-Plus"
+  "handle": "sliding-compound-miter-saw-kapex-ks-120-reb-2019-model",
+  "title": "Miter Saw KAPEX KS 120 REB"
  },
  "products": {
   "11717227925": {
@@ -3117,7 +3117,7 @@
    "type": "Other"
   },
   "6919470841943": {
-   "available": true,
+   "available": false,
    "first_seen": "2026-11-10T13:27:36.328784+00:00",
    "handle": "plunge-cut-track-saw-ts-60-keb-f-plus",
    "id": "6919470841943",

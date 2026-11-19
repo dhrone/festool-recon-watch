@@ -1,10 +1,10 @@
 {
  "backoff_s": 0,
  "backoff_until": null,
- "catalogue_at": "2026-11-19T21:15:34.431052+00:00",
+ "catalogue_at": "2026-11-19T22:15:35.816563+00:00",
  "home": {
-  "handle": "cordless-modular-edge-router-mfkc-700-eb-basic",
-  "title": "Cordless Modular Edge Router MFKC 700 EB-Basic"
+  "handle": "cordless-mobile-dust-extractor-ctc-midi-i-hepa-basic",
+  "title": "Cordless Dust Extractor CTC MIDI I HEPA-Basic"
  },
  "products": {
   "11717227925": {
@@ -2278,7 +2278,7 @@
    "type": "Sander"
   },
   "6564355342423": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.329070+00:00",
    "handle": "cordless-oscillator-vecturo-osc-18-e-basic-set",
    "id": "6564355342423",
@@ -3078,7 +3078,7 @@
    "type": "Other"
   },
   "6898558140503": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.328797+00:00",
    "handle": "cordless-mobile-dust-extractor-ctc-midi-i-hepa-basic",
    "id": "6898558140503",
@@ -3398,7 +3398,7 @@
    "type": "Vac"
   },
   "6952330821719": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.328693+00:00",
    "handle": "csc-sys-50-ebi-basic",
    "id": "6952330821719",
@@ -3928,7 +3928,7 @@
    "type": "Other"
   },
   "7413794537559": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.328514+00:00",
    "handle": "router-of-1010-rebq-plus",
    "id": "7413794537559",
@@ -4048,7 +4048,7 @@
    "type": "Table"
   },
   "7480297455703": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.328472+00:00",
    "handle": "dust-extractor-cleantec-ct-midi-i-hepa",
    "id": "7480297455703",
@@ -4748,7 +4748,7 @@
    "type": "Other"
   },
   "7742184489047": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.328239+00:00",
    "handle": "router-of-1400-eq-f-plus",
    "id": "7742184489047",

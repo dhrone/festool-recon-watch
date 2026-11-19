@@ -1,7 +1,7 @@
 {
  "backoff_s": 0,
  "backoff_until": null,
- "catalogue_at": "2026-11-19T20:00:54.067244+00:00",
+ "catalogue_at": "2026-11-19T21:15:34.431052+00:00",
  "home": {
   "handle": "sliding-compound-miter-saw-kapex-ks-120-reb-2019-model",
   "title": "Miter Saw KAPEX KS 120 REB"
@@ -4916,6 +4916,46 @@
    "price": 749.25,
    "title": "KSC 60 EB-Basic",
    "type": "Saw"
+  },
+  "7877407834199": {
+   "available": false,
+   "first_seen": "2026-11-19T21:15:34.431282+00:00",
+   "handle": "blue-systainer-100-year-sys-m-187",
+   "id": "7877407834199",
+   "listed": true,
+   "price": 55.5,
+   "title": "Blue Systainer 100-year  SYS M 187",
+   "type": "Systainer"
+  },
+  "7877407965271": {
+   "available": false,
+   "first_seen": "2026-11-19T21:15:34.431280+00:00",
+   "handle": "blue-systainer-100-year-sys-m-187-copy",
+   "id": "7877407965271",
+   "listed": true,
+   "price": 60.0,
+   "title": "Blue Systainer 100-year  SYS M 237",
+   "type": "Systainer"
+  },
+  "7877408063575": {
+   "available": false,
+   "first_seen": "2026-11-19T21:15:34.431278+00:00",
+   "handle": "blue-systainer-100-year-sys-m-237-copy",
+   "id": "7877408063575",
+   "listed": true,
+   "price": 62.25,
+   "title": "Blue Systainer 100-year  SYS M 337",
+   "type": "Systainer"
+  },
+  "7877408227415": {
+   "available": false,
+   "first_seen": "2026-11-19T21:15:34.431273+00:00",
+   "handle": "blue-systainer-100-year-sys-m-437",
+   "id": "7877408227415",
+   "listed": true,
+   "price": 65.25,
+   "title": "Blue Systainer 100-year  SYS M 437",
+   "type": "Systainer"
   },
   "81040310293": {
    "available": false,

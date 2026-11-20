@@ -1,10 +1,10 @@
 {
  "backoff_s": 0,
  "backoff_until": null,
- "catalogue_at": "2026-11-20T19:45:31.983667+00:00",
+ "catalogue_at": "2026-11-20T20:45:35.467866+00:00",
  "home": {
-  "handle": "dust-extractor-cleantec-ct-midi-i-hepa",
-  "title": "Dust Extractor CLEANTEC CT MIDI I HEPA"
+  "handle": "router-of-1400-eq-f-plus",
+  "title": "Router OF 1400 EQ-F-Plus"
  },
  "products": {
   "11717227925": {
@@ -3198,7 +3198,7 @@
    "type": "Drill"
   },
   "6919497711703": {
-   "available": true,
+   "available": false,
    "first_seen": "2026-11-10T13:27:36.328760+00:00",
    "handle": "cordless-track-saw-tsc-55-5-0-kebi-f-plus",
    "id": "6919497711703",
@@ -4708,7 +4708,7 @@
    "type": "Other"
   },
   "7712118407255": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.328251+00:00",
    "handle": "cordless-domino-joiner-dfc-500-e-basic",
    "id": "7712118407255",

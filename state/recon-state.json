@@ -1,7 +1,7 @@
 {
  "backoff_s": 0,
  "backoff_until": null,
- "catalogue_at": "2026-11-20T02:15:35.002412+00:00",
+ "catalogue_at": "2026-11-20T03:15:32.188096+00:00",
  "home": {
   "handle": "csc-sys-50-ebi-basic",
   "title": "Cordless Table Saw CSC SYS 50 EBI-Basic"
@@ -2278,7 +2278,7 @@
    "type": "Sander"
   },
   "6564355342423": {
-   "available": true,
+   "available": false,
    "first_seen": "2026-11-10T13:27:36.329070+00:00",
    "handle": "cordless-oscillator-vecturo-osc-18-e-basic-set",
    "id": "6564355342423",
@@ -3928,7 +3928,7 @@
    "type": "Other"
   },
   "7413794537559": {
-   "available": true,
+   "available": false,
    "first_seen": "2026-11-10T13:27:36.328514+00:00",
    "handle": "router-of-1010-rebq-plus",
    "id": "7413794537559",

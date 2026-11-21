@@ -1,7 +1,7 @@
 {
  "backoff_s": 0,
  "backoff_until": null,
- "catalogue_at": "2026-11-21T01:45:35.555637+00:00",
+ "catalogue_at": "2026-11-21T02:45:29.628854+00:00",
  "home": {
   "handle": "air-filter-sys-air-copy",
   "title": "Air filter SYS-AIR HEPA"
@@ -4708,7 +4708,7 @@
    "type": "Other"
   },
   "7712118407255": {
-   "available": true,
+   "available": false,
    "first_seen": "2026-11-10T13:27:36.328251+00:00",
    "handle": "cordless-domino-joiner-dfc-500-e-basic",
    "id": "7712118407255",

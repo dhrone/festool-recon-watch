@@ -1,7 +1,7 @@
 {
  "backoff_s": 0,
  "backoff_until": null,
- "catalogue_at": "2026-11-23T22:45:35.738093+00:00",
+ "catalogue_at": "2026-11-23T23:45:33.757175+00:00",
  "home": {
   "handle": "plunge-cut-track-saw-ts-75-eq-f-plus",
   "title": "Track Saw TS 75 EQ-F-Plus"
@@ -3158,7 +3158,7 @@
    "type": "Other"
   },
   "6919484211287": {
-   "available": true,
+   "available": false,
    "first_seen": "2026-11-10T13:27:36.328772+00:00",
    "handle": "finish-delta-sander-dts-400-req-plus-2",
    "id": "6919484211287",

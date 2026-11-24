@@ -1,7 +1,7 @@
 {
  "backoff_s": 0,
  "backoff_until": null,
- "catalogue_at": "2026-11-24T15:45:41.213686+00:00",
+ "catalogue_at": "2026-11-24T16:45:35.424046+00:00",
  "home": {
   "handle": "tid-18-basic-set-tpc-18-4",
   "title": "TID 18 Basic-Set TPC 18/4"
@@ -3048,7 +3048,7 @@
    "type": "Light"
   },
   "6888780398679": {
-   "available": true,
+   "available": false,
    "first_seen": "2026-11-10T13:27:36.328806+00:00",
    "handle": "plunge-cut-track-saw-ts-75-eq-f-plus",
    "id": "6888780398679",

@@ -1,7 +1,7 @@
 {
  "backoff_s": 0,
  "backoff_until": null,
- "catalogue_at": "2026-11-25T17:15:33.366745+00:00",
+ "catalogue_at": "2026-11-25T18:15:38.935641+00:00",
  "home": {
   "handle": null,
   "title": null
@@ -1928,7 +1928,7 @@
    "type": ""
   },
   "4686080278615": {
-   "available": true,
+   "available": false,
    "first_seen": "2026-11-10T13:27:36.329143+00:00",
    "handle": "impact-driver-and-drill-set-tid-18-hpc-4-0-i-set-t18",
    "id": "4686080278615",
@@ -2538,7 +2538,7 @@
    "type": "Sander"
   },
   "6591105269847": {
-   "available": true,
+   "available": false,
    "first_seen": "2026-11-10T13:27:36.328982+00:00",
    "handle": "hkc-track-saw-55-5-2-ebi-plus",
    "id": "6591105269847",
@@ -2688,7 +2688,7 @@
    "type": "Drills"
   },
   "6747421179991": {
-   "available": true,
+   "available": false,
    "first_seen": "2026-11-10T13:27:36.328929+00:00",
    "handle": "random-orbital-sander-ets-ec-150-3-eq-plus-1",
    "id": "6747421179991",
@@ -2948,7 +2948,7 @@
    "type": "Saw"
   },
   "6838107537495": {
-   "available": true,
+   "available": false,
    "first_seen": "2026-11-10T13:27:36.328838+00:00",
    "handle": "cordless-drill-quadrive-tpc-18-4-i-basic",
    "id": "6838107537495",
@@ -2958,7 +2958,7 @@
    "type": "Drill"
   },
   "6838107734103": {
-   "available": true,
+   "available": false,
    "first_seen": "2026-11-10T13:27:36.328835+00:00",
    "handle": "screwdriver-and-drill-bit-set-tid-18-hpc-i-set-tpc-18-4",
    "id": "6838107734103",
@@ -3078,7 +3078,7 @@
    "type": "Other"
   },
   "6898558140503": {
-   "available": true,
+   "available": false,
    "first_seen": "2026-11-10T13:27:36.328797+00:00",
    "handle": "cordless-mobile-dust-extractor-ctc-midi-i-hepa-basic",
    "id": "6898558140503",
@@ -3588,7 +3588,7 @@
    "type": "Sanders"
   },
   "7236596236375": {
-   "available": true,
+   "available": false,
    "first_seen": "2026-11-10T13:27:36.328632+00:00",
    "handle": "energy-set-sys-18v-4x5-0-tcl6duo-us",
    "id": "7236596236375",
@@ -4778,7 +4778,7 @@
    "type": "Router"
   },
   "7792716054615": {
-   "available": true,
+   "available": false,
    "first_seen": "2026-11-10T13:27:36.328226+00:00",
    "handle": "cordless-modular-edge-router-mfkc-700-eb-basic",
    "id": "7792716054615",
@@ -4898,7 +4898,7 @@
    "type": "Drill"
   },
   "7846362841175": {
-   "available": true,
+   "available": false,
    "first_seen": "2026-11-10T13:27:36.328181+00:00",
    "handle": "hkc-55-keb-f-basic",
    "id": "7846362841175",
@@ -4918,7 +4918,7 @@
    "type": "Saw"
   },
   "7877407834199": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-19T21:15:34.431282+00:00",
    "handle": "blue-systainer-100-year-sys-m-187",
    "id": "7877407834199",
@@ -4928,7 +4928,7 @@
    "type": "Systainer"
   },
   "7877407965271": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-19T21:15:34.431280+00:00",
    "handle": "blue-systainer-100-year-sys-m-187-copy",
    "id": "7877407965271",
@@ -4938,7 +4938,7 @@
    "type": "Systainer"
   },
   "7877408063575": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-19T21:15:34.431278+00:00",
    "handle": "blue-systainer-100-year-sys-m-237-copy",
    "id": "7877408063575",
@@ -4948,7 +4948,7 @@
    "type": "Systainer"
   },
   "7877408227415": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-19T21:15:34.431273+00:00",
    "handle": "blue-systainer-100-year-sys-m-437",
    "id": "7877408227415",
@@ -4968,7 +4968,7 @@
    "type": "Sander"
   },
   "7886340522071": {
-   "available": true,
+   "available": false,
    "first_seen": "2026-11-25T13:45:35.030361+00:00",
    "handle": "cordless-track-saw-tsc-55-kseb-basic",
    "id": "7886340522071",
@@ -5068,7 +5068,7 @@
    "type": "Other"
   },
   "7886353072215": {
-   "available": true,
+   "available": false,
    "first_seen": "2026-11-25T14:45:35.907892+00:00",
    "handle": "extraction-adapter-d-50-d-36",
    "id": "7886353072215",
@@ -5078,7 +5078,7 @@
    "type": "Other"
   },
   "7886355923031": {
-   "available": true,
+   "available": false,
    "first_seen": "2026-11-25T14:45:35.907890+00:00",
    "handle": "abrasive-systainer-sys-stf-d90-93-v-gr-set",
    "id": "7886355923031",
@@ -5088,7 +5088,7 @@
    "type": "Other"
   },
   "7886356971607": {
-   "available": true,
+   "available": false,
    "first_seen": "2026-11-25T14:45:35.907889+00:00",
    "handle": "upholstery-nozzle-d-36-pd",
    "id": "7886356971607",
@@ -5108,7 +5108,7 @@
    "type": "Other"
   },
   "7886359494743": {
-   "available": true,
+   "available": false,
    "first_seen": "2026-11-25T14:45:35.907883+00:00",
    "handle": "bluetooth-module-set-ct-f-i-m-set",
    "id": "7886359494743",

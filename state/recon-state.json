@@ -1,10 +1,10 @@
 {
  "backoff_s": 0,
  "backoff_until": null,
- "catalogue_at": "2026-11-25T16:15:41.651427+00:00",
+ "catalogue_at": "2026-11-25T17:15:33.366745+00:00",
  "home": {
-  "handle": "sliding-compound-miter-saw-kapex-ks-120-reb-2019-model",
-  "title": "Miter Saw KAPEX KS 120 REB"
+  "handle": null,
+  "title": null
  },
  "products": {
   "11717227925": {
@@ -1628,7 +1628,7 @@
    "type": "Other"
   },
   "4364131500119": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.328619+00:00",
    "handle": "mobile-workshop-mw-1000-basic",
    "id": "4364131500119",
@@ -1858,7 +1858,7 @@
    "type": "Sander"
   },
   "4686077755479": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.329167+00:00",
    "handle": "multi-mode-sander-rotex-ro-125-feq-plus",
    "id": "4686077755479",
@@ -1938,7 +1938,7 @@
    "type": ""
   },
   "4686080901207": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.329141+00:00",
    "handle": "cordless-jigsaw-carvex-psbc-420-hpc-4-0-ebi-plus",
    "id": "4686080901207",
@@ -2008,7 +2008,7 @@
    "type": "Saw"
   },
   "4688143908951": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.329118+00:00",
    "handle": "random-orbital-sander-ets-125-req-plus",
    "id": "4688143908951",
@@ -2178,7 +2178,7 @@
    "type": "Other"
   },
   "6558510612567": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.329107+00:00",
    "handle": "dust-extractor-cleantec-ct-48-e-ac-hepa",
    "id": "6558510612567",
@@ -2208,7 +2208,7 @@
    "type": "Other"
   },
   "6561671446615": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.329095+00:00",
    "handle": "cordless-jigsaw-carvex-psc-420-hpc-4-0-ebi-plus",
    "id": "6561671446615",
@@ -2328,7 +2328,7 @@
    "type": "Drill"
   },
   "6566873563223": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.329053+00:00",
    "handle": "cordless-jigsaw-carvex-psbc-420-eb-basic",
    "id": "6566873563223",
@@ -2338,7 +2338,7 @@
    "type": "Jigsaw"
   },
   "6566873661527": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.329049+00:00",
    "handle": "cordless-jigsaw-carvex-psc-420-eb-basic",
    "id": "6566873661527",
@@ -2358,7 +2358,7 @@
    "type": "Drill"
   },
   "6566874054743": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.329043+00:00",
    "handle": "random-orbital-sander-ets-150-3-eq-plus-1",
    "id": "6566874054743",
@@ -2458,7 +2458,7 @@
    "type": "Other"
   },
   "6571236982871": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.329011+00:00",
    "handle": "random-orbital-sander-ets-150-5-eq-plus-1",
    "id": "6571236982871",
@@ -2488,7 +2488,7 @@
    "type": "Sander"
   },
   "6578572591191": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.329001+00:00",
    "handle": "cordless-track-saw-tsc-55-5-2-kebi-f-plus",
    "id": "6578572591191",
@@ -2518,7 +2518,7 @@
    "type": "Sander"
   },
   "6585774211159": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.328988+00:00",
    "handle": "dust-extractor-cleantec-ct-36-e-hepa",
    "id": "6585774211159",
@@ -2528,7 +2528,7 @@
    "type": "Vac"
   },
   "6587043807319": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.328985+00:00",
    "handle": "multi-mode-rotex-sander-ro-90-dx-feq-plus-us",
    "id": "6587043807319",
@@ -2538,7 +2538,7 @@
    "type": "Sander"
   },
   "6591105269847": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.328982+00:00",
    "handle": "hkc-track-saw-55-5-2-ebi-plus",
    "id": "6591105269847",
@@ -2558,7 +2558,7 @@
    "type": "Drill"
   },
   "6592368148567": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.328976+00:00",
    "handle": "cordless-orbital-sander-rtsc-400-basic",
    "id": "6592368148567",
@@ -2608,7 +2608,7 @@
    "type": "Other"
   },
   "6592827326551": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.328961+00:00",
    "handle": "drywall-sander-planex-lhs-2-225-eqi-plus",
    "id": "6592827326551",
@@ -2638,7 +2638,7 @@
    "type": "Vac"
   },
   "6597016125527": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.328949+00:00",
    "handle": "dust-extractor-cleantec-ct-26-e-hepa",
    "id": "6597016125527",
@@ -2648,7 +2648,7 @@
    "type": "Vac"
   },
   "6629358403671": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.328945+00:00",
    "handle": "cordless-track-saw-tsc-55-keb-f-basic",
    "id": "6629358403671",
@@ -2688,7 +2688,7 @@
    "type": "Drills"
   },
   "6747421179991": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.328929+00:00",
    "handle": "random-orbital-sander-ets-ec-150-3-eq-plus-1",
    "id": "6747421179991",
@@ -2738,7 +2738,7 @@
    "type": "Grinders"
   },
   "6774906388567": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.328909+00:00",
    "handle": "router-of-2200-eb-f-plus-1",
    "id": "6774906388567",
@@ -2748,7 +2748,7 @@
    "type": "Router"
   },
   "6777616171095": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.328906+00:00",
    "handle": "random-orbital-sander-ets-ec-125-3-eq-plus",
    "id": "6777616171095",
@@ -2828,7 +2828,7 @@
    "type": "Router"
   },
   "6798272102487": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.328879+00:00",
    "handle": "copy-of-domino-joiner-df-500-q-set",
    "id": "6798272102487",
@@ -2848,7 +2848,7 @@
    "type": "Joiner"
   },
   "6798273970263": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.328872+00:00",
    "handle": "copy-of-conturo-ka-65-portable-edge-bander",
    "id": "6798273970263",
@@ -2858,7 +2858,7 @@
    "type": "Edgebander"
   },
   "6798275510359": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.328869+00:00",
    "handle": "copy-of-cordless-eccentric-sander-etsc-125-li-3-1-basic",
    "id": "6798275510359",
@@ -2888,7 +2888,7 @@
    "type": "Router"
   },
   "6798279508055": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.328861+00:00",
    "handle": "cleantec-ct-15-e-hepa",
    "id": "6798279508055",
@@ -2898,7 +2898,7 @@
    "type": "Vac"
   },
   "6822268174423": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.328855+00:00",
    "handle": "copy-of-domino-xl-df-700-joiner-set",
    "id": "6822268174423",
@@ -2908,7 +2908,7 @@
    "type": "Joiner"
   },
   "6823998029911": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.328852+00:00",
    "handle": "copy-of-planer-hl-850-e-f-plus",
    "id": "6823998029911",
@@ -2928,7 +2928,7 @@
    "type": "Vac"
   },
   "6838106980439": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.328845+00:00",
    "handle": "track-saw-hkc-55-eb-f-basic",
    "id": "6838106980439",
@@ -2938,7 +2938,7 @@
    "type": "Saw"
   },
   "6838107177047": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.328842+00:00",
    "handle": "plunge-cut-track-saw-ts-55-feq-f-plus",
    "id": "6838107177047",
@@ -2948,7 +2948,7 @@
    "type": "Saw"
   },
   "6838107537495": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.328838+00:00",
    "handle": "cordless-drill-quadrive-tpc-18-4-i-basic",
    "id": "6838107537495",
@@ -2958,7 +2958,7 @@
    "type": "Drill"
   },
   "6838107734103": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.328835+00:00",
    "handle": "screwdriver-and-drill-bit-set-tid-18-hpc-i-set-tpc-18-4",
    "id": "6838107734103",
@@ -2968,7 +2968,7 @@
    "type": "Drill"
   },
   "6838107897943": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.328831+00:00",
    "handle": "cordless-drill-quadrive-tpc-18-4-hpc-4-0-i-set",
    "id": "6838107897943",
@@ -3078,7 +3078,7 @@
    "type": "Other"
   },
   "6898558140503": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.328797+00:00",
    "handle": "cordless-mobile-dust-extractor-ctc-midi-i-hepa-basic",
    "id": "6898558140503",
@@ -3098,7 +3098,7 @@
    "type": "Vac"
   },
   "6911383535703": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.328232+00:00",
    "handle": "energy-set-sys-18v-2x4-0-tcl-6-duo",
    "id": "6911383535703",
@@ -3108,7 +3108,7 @@
    "type": "Other"
   },
   "6911385141335": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.328791+00:00",
    "handle": "energy-set-sys-18v-2x5-0-tcl-6-duo",
    "id": "6911385141335",
@@ -3128,7 +3128,7 @@
    "type": "Saw"
   },
   "6919473496151": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.328781+00:00",
    "handle": "cordless-sliding-compound-miter-saw-kapex-ksc-60-eb-basic",
    "id": "6919473496151",
@@ -3148,7 +3148,7 @@
    "type": "Other"
   },
   "6919482540119": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.328775+00:00",
    "handle": "diamond-grinder-renofix-rg-130-eci-plus",
    "id": "6919482540119",
@@ -3178,7 +3178,7 @@
    "type": "Drill"
   },
   "6919490797655": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.328766+00:00",
    "handle": "cordless-impact-drill-tid-18-basic-1",
    "id": "6919490797655",
@@ -3188,7 +3188,7 @@
    "type": "Drill"
   },
   "6919495319639": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.328763+00:00",
    "handle": "tid18-hpc-i-settpc18-us",
    "id": "6919495319639",
@@ -3198,7 +3198,7 @@
    "type": "Drill"
   },
   "6919497711703": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.328760+00:00",
    "handle": "cordless-track-saw-tsc-55-5-0-kebi-f-plus",
    "id": "6919497711703",
@@ -3248,7 +3248,7 @@
    "type": "Other"
   },
   "6924800917591": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.328744+00:00",
    "handle": "tsv-60-keb-f-plus",
    "id": "6924800917591",
@@ -3408,7 +3408,7 @@
    "type": "Saw"
   },
   "6968554389591": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.328690+00:00",
    "handle": "copy-of-cordless-delta-sander-dtsc-400-li-basic",
    "id": "6968554389591",
@@ -3438,7 +3438,7 @@
    "type": "Saw"
   },
   "6997520973911": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.328680+00:00",
    "handle": "cordless-drill-txs-18-basic",
    "id": "6997520973911",
@@ -3448,7 +3448,7 @@
    "type": "Drills"
   },
   "7007314575447": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.328677+00:00",
    "handle": "cordless-drill-quadrive-tpc-18-4-hpc4-0-i-set",
    "id": "7007314575447",
@@ -3458,7 +3458,7 @@
    "type": "Drill"
   },
   "7007314772055": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.328674+00:00",
    "handle": "copy-of-cordless-sander-etsc-125-li-3-1-i-plus-1",
    "id": "7007314772055",
@@ -3468,7 +3468,7 @@
    "type": "Sander"
   },
   "7020347064407": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.328670+00:00",
    "handle": "cordless-delta-sander-dtsc-400-3-0-i-plus",
    "id": "7020347064407",
@@ -3478,7 +3478,7 @@
    "type": "Sander"
   },
   "7020347752535": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.328667+00:00",
    "handle": "cordless-impact-drill-tid-18-hpc-4-0-i-plus-1",
    "id": "7020347752535",
@@ -3518,7 +3518,7 @@
    "type": "Other"
   },
   "7097297928279": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.328654+00:00",
    "handle": "hkc-55-5-0-ebi-f-plus",
    "id": "7097297928279",
@@ -3548,7 +3548,7 @@
    "type": "Drill"
   },
   "7221946187863": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.328644+00:00",
    "handle": "cordless-drill-t18-3-hpc4-0-i-set-us-copy",
    "id": "7221946187863",
@@ -3578,7 +3578,7 @@
    "type": "Other"
   },
   "7236585586775": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.328635+00:00",
    "handle": "drywall-sander-planex-lhs-2-m-225-eq",
    "id": "7236585586775",
@@ -3588,7 +3588,7 @@
    "type": "Sanders"
   },
   "7236596236375": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.328632+00:00",
    "handle": "energy-set-sys-18v-4x5-0-tcl6duo-us",
    "id": "7236596236375",
@@ -3648,7 +3648,7 @@
    "type": "Sander"
   },
   "7299509485655": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.328609+00:00",
    "handle": "summer-systainer-sys-187-us",
    "id": "7299509485655",
@@ -3678,7 +3678,7 @@
    "type": "Other"
   },
   "7309270188119": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.328599+00:00",
    "handle": "impact-driver-and-drill-set-tid18-hpc-4-0i-set-t18",
    "id": "7309270188119",
@@ -3708,7 +3708,7 @@
    "type": "Other"
   },
   "7324325904471": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.328589+00:00",
    "handle": "cordless-orbital-sander-rtsc-400-3-0-i-plus",
    "id": "7324325904471",
@@ -3728,7 +3728,7 @@
    "type": "Saw"
   },
   "7328552648791": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.328582+00:00",
    "handle": "planex-lhs-2-225-eqi-plus-ct-36-e-ac-dust-extractor",
    "id": "7328552648791",
@@ -3848,7 +3848,7 @@
    "type": "Drills"
   },
   "7409301684311": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.328543+00:00",
    "handle": "exoskeleton-exoactive-exo-18-hpc-4-0-i-plus",
    "id": "7409301684311",
@@ -3878,7 +3878,7 @@
    "type": "Saw"
   },
   "7412809924695": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.328531+00:00",
    "handle": "dust-extractor-cleantec-ct-26-ei-hepa",
    "id": "7412809924695",
@@ -3888,7 +3888,7 @@
    "type": "Vac"
   },
   "7412811235415": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.328528+00:00",
    "handle": "dust-extractor-cleantec-ct-36-ei-hepa",
    "id": "7412811235415",
@@ -3898,7 +3898,7 @@
    "type": "Vac"
   },
   "7412812808279": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.328525+00:00",
    "handle": "dust-extractor-cleantec-ct-36-ei-ac-hepa",
    "id": "7412812808279",
@@ -3908,7 +3908,7 @@
    "type": "Vac"
   },
   "7412814118999": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.328521+00:00",
    "handle": "dust-extractor-cleantec-ct-48-ei-ac-hepa",
    "id": "7412814118999",
@@ -3968,7 +3968,7 @@
    "type": "Drill"
   },
   "7436555255895": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.328501+00:00",
    "handle": "etsc-2-150-4-0-i-plus",
    "id": "7436555255895",
@@ -3978,7 +3978,7 @@
    "type": "Sander"
   },
   "7436555812951": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.328497+00:00",
    "handle": "etsc-2-150-basic",
    "id": "7436555812951",
@@ -3988,7 +3988,7 @@
    "type": "Sander"
   },
   "7436556566615": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.328494+00:00",
    "handle": "etsc-2-125-4-0-i-plus",
    "id": "7436556566615",
@@ -3998,7 +3998,7 @@
    "type": "Sander"
   },
   "7436557090903": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.328490+00:00",
    "handle": "etsc-2-125-basic",
    "id": "7436557090903",
@@ -4008,7 +4008,7 @@
    "type": "Sander"
   },
   "7436557746263": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.328487+00:00",
    "handle": "air-filter-sys-air",
    "id": "7436557746263",
@@ -4018,7 +4018,7 @@
    "type": "Other"
   },
   "7436557844567": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.328483+00:00",
    "handle": "air-filter-sys-air-copy",
    "id": "7436557844567",
@@ -4068,7 +4068,7 @@
    "type": "Other"
   },
   "7520602030167": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.328465+00:00",
    "handle": "dust-extractor-ct-15-hepa",
    "id": "7520602030167",
@@ -4198,7 +4198,7 @@
    "type": "Other"
   },
   "7521078181975": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.328421+00:00",
    "handle": "reversible-cutter-hw-wp-25x5-5x1-1-4x",
    "id": "7521078181975",
@@ -4248,7 +4248,7 @@
    "type": "Other"
   },
   "7521080737879": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.328405+00:00",
    "handle": "turbo-dust-bag-set-tfs-rs-400",
    "id": "7521080737879",
@@ -4318,7 +4318,7 @@
    "type": "Other"
   },
   "7521084178519": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.328383+00:00",
    "handle": "template-kr-d-30-of-1010",
    "id": "7521084178519",
@@ -4378,7 +4378,7 @@
    "type": "Other"
   },
   "7521094336599": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.328363+00:00",
    "handle": "cover-cap-kv-ak-d15-gr-50",
    "id": "7521094336599",
@@ -4398,7 +4398,7 @@
    "type": "Other"
   },
   "7521094991959": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.328357+00:00",
    "handle": "container-set-box-150x150x68-6",
    "id": "7521094991959",
@@ -4488,7 +4488,7 @@
    "type": "Other"
   },
   "7521098137687": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.328328+00:00",
    "handle": "container-set-box-150x300x68-2",
    "id": "7521098137687",
@@ -4518,7 +4518,7 @@
    "type": "Other"
   },
   "7521099186263": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.328318+00:00",
    "handle": "grit-abrasives-115x228-p80-gr-50-granat",
    "id": "7521099186263",
@@ -4558,7 +4558,7 @@
    "type": "Other"
   },
   "7521100660823": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.328306+00:00",
    "handle": "grit-abrasives-v93-p150-ru-50-rubin",
    "id": "7521100660823",
@@ -4568,7 +4568,7 @@
    "type": "Other"
   },
   "7521101185111": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.328303+00:00",
    "handle": "stf-115x228-p320-gr-100x",
    "id": "7521101185111",
@@ -4588,7 +4588,7 @@
    "type": "Other"
   },
   "7521102069847": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.328298+00:00",
    "handle": "sortainer-sys-4-tl-sort-3",
    "id": "7521102069847",
@@ -4598,7 +4598,7 @@
    "type": "Other"
   },
   "7522930655319": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.328294+00:00",
    "handle": "lex-3-150-5-air-sander-copy",
    "id": "7522930655319",
@@ -4658,7 +4658,7 @@
    "type": "Other"
   },
   "7629089865815": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.328270+00:00",
    "handle": "df-500-rq-set",
    "id": "7629089865815",
@@ -4728,7 +4728,7 @@
    "type": "Planer"
   },
   "7723248549975": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.328245+00:00",
    "handle": "planex-easy-lhs-e-225-eq-cb",
    "id": "7723248549975",
@@ -4778,7 +4778,7 @@
    "type": "Router"
   },
   "7792716054615": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.328226+00:00",
    "handle": "cordless-modular-edge-router-mfkc-700-eb-basic",
    "id": "7792716054615",
@@ -4808,7 +4808,7 @@
    "type": "Other"
   },
   "7805105668183": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.328216+00:00",
    "handle": "twist-drill-bit-hss-d-6-57-ce-m-set",
    "id": "7805105668183",
@@ -4818,7 +4818,7 @@
    "type": "Other"
   },
   "7805106290775": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.328212+00:00",
    "handle": "grit-abrasives-115x228-p240-gr-100-granat",
    "id": "7805106290775",
@@ -4828,7 +4828,7 @@
    "type": "Other"
   },
   "7805106978903": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.328209+00:00",
    "handle": "turbo-dust-bag-set-tfs-es-150",
    "id": "7805106978903",
@@ -4838,7 +4838,7 @@
    "type": "Other"
   },
   "7805108125783": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.328206+00:00",
    "handle": "grit-abrasives-115x228-p40-gr-50-granat",
    "id": "7805108125783",
@@ -4858,7 +4858,7 @@
    "type": "Other"
   },
   "7805110648919": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.328198+00:00",
    "handle": "twist-drill-bit-hss-d-5-57-ce-m-set",
    "id": "7805110648919",
@@ -4898,7 +4898,7 @@
    "type": "Drill"
   },
   "7846362841175": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.328181+00:00",
    "handle": "hkc-55-keb-f-basic",
    "id": "7846362841175",
@@ -4908,7 +4908,7 @@
    "type": "Saw"
   },
   "7846396887127": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-10T13:27:36.328148+00:00",
    "handle": "ksc-60-eb-basic",
    "id": "7846396887127",
@@ -4958,7 +4958,7 @@
    "type": "Systainer"
   },
   "7886338621527": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-25T13:45:35.030363+00:00",
    "handle": "air-sander-lex-3-150-7",
    "id": "7886338621527",
@@ -4968,7 +4968,7 @@
    "type": "Sander"
   },
   "7886340522071": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-25T13:45:35.030361+00:00",
    "handle": "cordless-track-saw-tsc-55-kseb-basic",
    "id": "7886340522071",
@@ -4978,7 +4978,7 @@
    "type": "Saw"
   },
   "7886342029399": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-25T13:45:35.030359+00:00",
    "handle": "impact-driver-and-drill-set-tid-18-basic-set-t18",
    "id": "7886342029399",
@@ -4988,7 +4988,7 @@
    "type": "Drills"
   },
   "7886342684759": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-25T13:45:35.030357+00:00",
    "handle": "adapter-ad-ef-m14-80-ergofix",
    "id": "7886342684759",
@@ -4998,7 +4998,7 @@
    "type": ""
   },
   "7886342881367": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-25T13:45:35.030354+00:00",
    "handle": "summer-systainer-sys-187-us-copy",
    "id": "7886342881367",
@@ -5008,7 +5008,7 @@
    "type": "Other"
   },
   "7886345338967": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-25T13:45:35.030349+00:00",
    "handle": "abrasives-d150-p180-gr-100-granat",
    "id": "7886345338967",
@@ -5018,7 +5018,7 @@
    "type": "Other"
   },
   "7886348451927": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-25T14:45:35.907899+00:00",
    "handle": "abrasives-d125-p180-gr-100-granat",
    "id": "7886348451927",
@@ -5028,7 +5028,7 @@
    "type": "Other"
   },
   "7886348877911": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-25T14:45:35.907897+00:00",
    "handle": "abrasives-d125-p180-gr-100-granat-copy",
    "id": "7886348877911",
@@ -5038,7 +5038,7 @@
    "type": "Other"
   },
   "7886350286935": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-25T14:45:35.907893+00:00",
    "handle": "abrasives-d150-p320-gr-100-granat-copy",
    "id": "7886350286935",
@@ -5048,7 +5048,7 @@
    "type": "Other"
   },
   "7886350483543": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-25T14:45:35.907896+00:00",
    "handle": "abrasives-d150-p320-gr-100-granat-copy-copy",
    "id": "7886350483543",
@@ -5058,7 +5058,7 @@
    "type": "Other"
   },
   "7886350843991": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-25T14:45:35.907895+00:00",
    "handle": "abrasives-d150-p150-gr-100-granat-copy",
    "id": "7886350843991",
@@ -5068,7 +5068,7 @@
    "type": "Other"
   },
   "7886353072215": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-25T14:45:35.907892+00:00",
    "handle": "extraction-adapter-d-50-d-36",
    "id": "7886353072215",
@@ -5078,7 +5078,7 @@
    "type": "Other"
   },
   "7886355923031": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-25T14:45:35.907890+00:00",
    "handle": "abrasive-systainer-sys-stf-d90-93-v-gr-set",
    "id": "7886355923031",
@@ -5088,7 +5088,7 @@
    "type": "Other"
   },
   "7886356971607": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-25T14:45:35.907889+00:00",
    "handle": "upholstery-nozzle-d-36-pd",
    "id": "7886356971607",
@@ -5098,7 +5098,7 @@
    "type": "Other"
   },
   "7886358413399": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-25T14:45:35.907887+00:00",
    "handle": "saw-blade-216x2-3x30-tf64",
    "id": "7886358413399",
@@ -5108,7 +5108,7 @@
    "type": "Other"
   },
   "7886359494743": {
-   "available": false,
+   "available": true,
    "first_seen": "2026-11-25T14:45:35.907883+00:00",
    "handle": "bluetooth-module-set-ct-f-i-m-set",
    "id": "7886359494743",

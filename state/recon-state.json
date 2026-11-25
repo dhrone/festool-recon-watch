@@ -1,7 +1,7 @@
 {
  "backoff_s": 0,
  "backoff_until": null,
- "catalogue_at": "2026-11-25T12:45:51.504100+00:00",
+ "catalogue_at": "2026-11-25T13:45:35.030139+00:00",
  "home": {
   "handle": "tid-18-basic-set-tpc-18-4",
   "title": "TID 18 Basic-Set TPC 18/4"
@@ -3733,7 +3733,7 @@
    "handle": "planex-lhs-2-225-eqi-plus-ct-36-e-ac-dust-extractor",
    "id": "7328552648791",
    "listed": true,
-   "price": 1938.0,
+   "price": 1421.2,
    "title": "Planex LHS 2 225 EQI-Plus & CT 36 E AC dust extractor",
    "type": "Sander"
   },
@@ -4956,6 +4956,66 @@
    "price": 65.25,
    "title": "Blue Systainer 100-year  SYS M 437",
    "type": "Systainer"
+  },
+  "7886338621527": {
+   "available": false,
+   "first_seen": "2026-11-25T13:45:35.030363+00:00",
+   "handle": "air-sander-lex-3-150-7",
+   "id": "7886338621527",
+   "listed": true,
+   "price": 324.5,
+   "title": "Air Sander LEX 3 150/7",
+   "type": "Sander"
+  },
+  "7886340522071": {
+   "available": false,
+   "first_seen": "2026-11-25T13:45:35.030361+00:00",
+   "handle": "cordless-track-saw-tsc-55-kseb-basic",
+   "id": "7886340522071",
+   "listed": true,
+   "price": 479.2,
+   "title": "Cordless Track Saw TSC 55 KSEB-Basic",
+   "type": "Saw"
+  },
+  "7886342029399": {
+   "available": false,
+   "first_seen": "2026-11-25T13:45:35.030359+00:00",
+   "handle": "impact-driver-and-drill-set-tid-18-basic-set-t18",
+   "id": "7886342029399",
+   "listed": true,
+   "price": 359.2,
+   "title": "Impact Driver and Drill set TID 18 Basic-Set T18",
+   "type": "Drills"
+  },
+  "7886342684759": {
+   "available": false,
+   "first_seen": "2026-11-25T13:45:35.030357+00:00",
+   "handle": "adapter-ad-ef-m14-80-ergofix",
+   "id": "7886342684759",
+   "listed": true,
+   "price": 19.2,
+   "title": "Adapter AD-EF-M14/80 ErgoFix",
+   "type": ""
+  },
+  "7886342881367": {
+   "available": false,
+   "first_seen": "2026-11-25T13:45:35.030354+00:00",
+   "handle": "summer-systainer-sys-187-us-copy",
+   "id": "7886342881367",
+   "listed": true,
+   "price": 99.0,
+   "title": "Summer Systainer\u00b3 SYS 187 Canada",
+   "type": "Other"
+  },
+  "7886345338967": {
+   "available": false,
+   "first_seen": "2026-11-25T13:45:35.030349+00:00",
+   "handle": "abrasives-d150-p180-gr-100-granat",
+   "id": "7886345338967",
+   "listed": true,
+   "price": 64.0,
+   "title": "Abrasives D150 P320 GR/100 Granat",
+   "type": "Other"
   },
   "81040310293": {
    "available": false,

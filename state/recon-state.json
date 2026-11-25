@@ -1,7 +1,7 @@
 {
  "backoff_s": 0,
  "backoff_until": null,
- "catalogue_at": "2026-11-25T22:15:30.074703+00:00",
+ "catalogue_at": "2026-11-25T23:15:30.657362+00:00",
  "home": {
   "handle": null,
   "title": null
@@ -2208,7 +2208,7 @@
    "type": "Other"
   },
   "6561671446615": {
-   "available": true,
+   "available": false,
    "first_seen": "2026-11-10T13:27:36.329095+00:00",
    "handle": "cordless-jigsaw-carvex-psc-420-hpc-4-0-ebi-plus",
    "id": "6561671446615",
@@ -2828,7 +2828,7 @@
    "type": "Router"
   },
   "6798272102487": {
-   "available": true,
+   "available": false,
    "first_seen": "2026-11-10T13:27:36.328879+00:00",
    "handle": "copy-of-domino-joiner-df-500-q-set",
    "id": "6798272102487",
@@ -4558,7 +4558,7 @@
    "type": "Other"
   },
   "7521100660823": {
-   "available": true,
+   "available": false,
    "first_seen": "2026-11-10T13:27:36.328306+00:00",
    "handle": "grit-abrasives-v93-p150-ru-50-rubin",
    "id": "7521100660823",

@@ -1,7 +1,7 @@
 {
  "backoff_s": 0,
  "backoff_until": null,
- "catalogue_at": "2026-11-25T13:45:35.030139+00:00",
+ "catalogue_at": "2026-11-25T14:45:35.907679+00:00",
  "home": {
   "handle": "sliding-compound-miter-saw-kapex-ks-120-reb-2019-model",
   "title": "Miter Saw KAPEX KS 120 REB"
@@ -1803,7 +1803,7 @@
    "handle": "finish-orbital-sander-rts-400-req-plus-1",
    "id": "4685444153431",
    "listed": true,
-   "price": 279.2,
+   "price": 244.3,
    "title": "Finish Orbital Sander RTS 400 REQ-Plus",
    "type": "Sander"
   },
@@ -1863,7 +1863,7 @@
    "handle": "multi-mode-sander-rotex-ro-125-feq-plus",
    "id": "4686077755479",
    "listed": true,
-   "price": 476.25,
+   "price": 412.75,
    "title": "Multi-Mode Sander ROTEX RO 125 FEQ-Plus",
    "type": "Sander"
   },
@@ -1943,7 +1943,7 @@
    "handle": "cordless-jigsaw-carvex-psbc-420-hpc-4-0-ebi-plus",
    "id": "4686080901207",
    "listed": true,
-   "price": 479.2,
+   "price": 419.3,
    "title": "Cordless Jigsaw CARVEX PSBC 420 HPC 4,0 EBI-Plus",
    "type": "Jigsaw"
   },
@@ -2413,7 +2413,7 @@
    "handle": "dust-extractor-cleantec-ct-36-e-ac-hepa",
    "id": "6568082866263",
    "listed": true,
-   "price": 689.5,
+   "price": 640.25,
    "title": "Dust Extractor CLEANTEC CT 36 E AC HEPA",
    "type": "Vac"
   },
@@ -2523,7 +2523,7 @@
    "handle": "dust-extractor-cleantec-ct-36-e-hepa",
    "id": "6585774211159",
    "listed": true,
-   "price": 648.75,
+   "price": 562.25,
    "title": "Dust Extractor CLEANTEC CT 36 E HEPA",
    "type": "Vac"
   },
@@ -2643,7 +2643,7 @@
    "handle": "dust-extractor-cleantec-ct-26-e-hepa",
    "id": "6597016125527",
    "listed": true,
-   "price": 599.25,
+   "price": 519.35,
    "title": "Dust Extractor CLEANTEC CT 26 E HEPA",
    "type": "Vac"
   },
@@ -2688,7 +2688,7 @@
    "type": "Drills"
   },
   "6747421179991": {
-   "available": true,
+   "available": false,
    "first_seen": "2026-11-10T13:27:36.328929+00:00",
    "handle": "random-orbital-sander-ets-ec-150-3-eq-plus-1",
    "id": "6747421179991",
@@ -2753,7 +2753,7 @@
    "handle": "random-orbital-sander-ets-ec-125-3-eq-plus",
    "id": "6777616171095",
    "listed": true,
-   "price": 439.2,
+   "price": 384.3,
    "title": "Random Orbital Sander ETS EC 125/3 EQ-Plus",
    "type": "Sander"
   },
@@ -2833,7 +2833,7 @@
    "handle": "copy-of-domino-joiner-df-500-q-set",
    "id": "6798272102487",
    "listed": true,
-   "price": 1019.25,
+   "price": 883.35,
    "title": "Domino Joiner DF 500 Q Set",
    "type": "Joiner"
   },
@@ -2853,7 +2853,7 @@
    "handle": "copy-of-conturo-ka-65-portable-edge-bander",
    "id": "6798273970263",
    "listed": true,
-   "price": 2879.2,
+   "price": 2519.3,
    "title": "Edge Bander Conturo KA 65",
    "type": "Edgebander"
   },
@@ -2893,7 +2893,7 @@
    "handle": "cleantec-ct-15-e-hepa",
    "id": "6798279508055",
    "listed": true,
-   "price": 333.1,
+   "price": 288.69,
    "title": "Dust Extractor CLEANTEC CT 15 E HEPA",
    "type": "Vac"
   },
@@ -2943,7 +2943,7 @@
    "handle": "plunge-cut-track-saw-ts-55-feq-f-plus",
    "id": "6838107177047",
    "listed": true,
-   "price": 501.75,
+   "price": 434.85,
    "title": "Track Saw TS 55 FEQ-F-Plus",
    "type": "Saw"
   },
@@ -3153,7 +3153,7 @@
    "handle": "diamond-grinder-renofix-rg-130-eci-plus",
    "id": "6919482540119",
    "listed": true,
-   "price": 584.35,
+   "price": 494.45,
    "title": "Diamond Grinder RENOFIX RG 130 ECI-Plus",
    "type": "Other"
   },
@@ -3203,7 +3203,7 @@
    "handle": "cordless-track-saw-tsc-55-5-0-kebi-f-plus",
    "id": "6919497711703",
    "listed": true,
-   "price": 639.2,
+   "price": 559.3,
    "title": "Cordless Track Saw TSC 55 5,0 KEBI-F-Plus",
    "type": "Saw"
   },
@@ -3253,7 +3253,7 @@
    "handle": "tsv-60-keb-f-plus",
    "id": "6924800917591",
    "listed": true,
-   "price": 847.2,
+   "price": 741.3,
    "title": "Track Saw TSV 60 KEB-F-Plus",
    "type": "Saw"
   },
@@ -3463,12 +3463,12 @@
    "handle": "copy-of-cordless-sander-etsc-125-li-3-1-i-plus-1",
    "id": "7007314772055",
    "listed": true,
-   "price": 419.3,
+   "price": 359.4,
    "title": "Cordless Sander ETSC 125 Li 3,1 I-Plus",
    "type": "Sander"
   },
   "7020347064407": {
-   "available": true,
+   "available": false,
    "first_seen": "2026-11-10T13:27:36.328670+00:00",
    "handle": "cordless-delta-sander-dtsc-400-3-0-i-plus",
    "id": "7020347064407",
@@ -3478,7 +3478,7 @@
    "type": "Sander"
   },
   "7020347752535": {
-   "available": true,
+   "available": false,
    "first_seen": "2026-11-10T13:27:36.328667+00:00",
    "handle": "cordless-impact-drill-tid-18-hpc-4-0-i-plus-1",
    "id": "7020347752535",
@@ -3523,7 +3523,7 @@
    "handle": "hkc-55-5-0-ebi-f-plus",
    "id": "7097297928279",
    "listed": true,
-   "price": 599.25,
+   "price": 519.35,
    "title": "Cordless Track Saw HKC 55 5,0 EBI-F-Plus",
    "type": "Saw"
   },
@@ -3853,7 +3853,7 @@
    "handle": "exoskeleton-exoactive-exo-18-hpc-4-0-i-plus",
    "id": "7409301684311",
    "listed": true,
-   "price": 2097.0,
+   "price": 1398.0,
    "title": "Exoskeleton ExoActive EXO 18 HPC 4,0 I-Plus",
    "type": "Other"
   },
@@ -3893,7 +3893,7 @@
    "handle": "dust-extractor-cleantec-ct-36-ei-hepa",
    "id": "7412811235415",
    "listed": true,
-   "price": 799.2,
+   "price": 699.3,
    "title": "Dust Extractor CLEANTEC CT 36 EI HEPA",
    "type": "Vac"
   },
@@ -3903,7 +3903,7 @@
    "handle": "dust-extractor-cleantec-ct-36-ei-ac-hepa",
    "id": "7412812808279",
    "listed": true,
-   "price": 879.2,
+   "price": 769.3,
    "title": "Dust Extractor CLEANTEC CT 36 EI AC HEPA",
    "type": "Vac"
   },
@@ -3913,7 +3913,7 @@
    "handle": "dust-extractor-cleantec-ct-48-ei-ac-hepa",
    "id": "7412814118999",
    "listed": true,
-   "price": 959.2,
+   "price": 839.3,
    "title": "Dust Extractor CLEANTEC CT 48 EI AC HEPA",
    "type": "Vac"
   },
@@ -3993,7 +3993,7 @@
    "handle": "etsc-2-125-4-0-i-plus",
    "id": "7436556566615",
    "listed": true,
-   "price": 479.25,
+   "price": 415.35,
    "title": "Cordless Sander ETSC 2 125 4,0 I-Plus",
    "type": "Sander"
   },
@@ -4073,7 +4073,7 @@
    "handle": "dust-extractor-ct-15-hepa",
    "id": "7520602030167",
    "listed": true,
-   "price": 359.2,
+   "price": 314.3,
    "title": "Dust Extractor CT 15 HEPA",
    "type": "Vac"
   },
@@ -4733,7 +4733,7 @@
    "handle": "planex-easy-lhs-e-225-eq-cb",
    "id": "7723248549975",
    "listed": true,
-   "price": 559.2,
+   "price": 436.87,
    "title": "PLANEX easy LHS-E 225 EQ-CB",
    "type": "Sander"
   },
@@ -4888,7 +4888,7 @@
    "type": "Other"
   },
   "7846346227799": {
-   "available": true,
+   "available": false,
    "first_seen": "2026-11-10T13:27:36.328187+00:00",
    "handle": "tid-18-basic-set-tpc-18-4",
    "id": "7846346227799",
@@ -5015,6 +5015,106 @@
    "listed": true,
    "price": 64.0,
    "title": "Abrasives D150 P320 GR/100 Granat",
+   "type": "Other"
+  },
+  "7886348451927": {
+   "available": false,
+   "first_seen": "2026-11-25T14:45:35.907899+00:00",
+   "handle": "abrasives-d125-p180-gr-100-granat",
+   "id": "7886348451927",
+   "listed": true,
+   "price": 59.2,
+   "title": "Abrasives D125 P180 GR/100 Granat",
+   "type": "Other"
+  },
+  "7886348877911": {
+   "available": false,
+   "first_seen": "2026-11-25T14:45:35.907897+00:00",
+   "handle": "abrasives-d125-p180-gr-100-granat-copy",
+   "id": "7886348877911",
+   "listed": true,
+   "price": 59.2,
+   "title": "Abrasives D125 P240 GR/100 Granat",
+   "type": "Other"
+  },
+  "7886350286935": {
+   "available": false,
+   "first_seen": "2026-11-25T14:45:35.907893+00:00",
+   "handle": "abrasives-d150-p320-gr-100-granat-copy",
+   "id": "7886350286935",
+   "listed": true,
+   "price": 64.0,
+   "title": "Abrasives D150 P180 GR/100 Granat",
+   "type": "Other"
+  },
+  "7886350483543": {
+   "available": false,
+   "first_seen": "2026-11-25T14:45:35.907896+00:00",
+   "handle": "abrasives-d150-p320-gr-100-granat-copy-copy",
+   "id": "7886350483543",
+   "listed": true,
+   "price": 64.0,
+   "title": "Abrasives D150 P240 GR/100 Granat",
+   "type": "Other"
+  },
+  "7886350843991": {
+   "available": false,
+   "first_seen": "2026-11-25T14:45:35.907895+00:00",
+   "handle": "abrasives-d150-p150-gr-100-granat-copy",
+   "id": "7886350843991",
+   "listed": true,
+   "price": 64.0,
+   "title": "Abrasives D150 P220 GR/100 Granat",
+   "type": "Other"
+  },
+  "7886353072215": {
+   "available": false,
+   "first_seen": "2026-11-25T14:45:35.907892+00:00",
+   "handle": "extraction-adapter-d-50-d-36",
+   "id": "7886353072215",
+   "listed": true,
+   "price": 15.2,
+   "title": "Extraction adapter D 50/D 36",
+   "type": "Other"
+  },
+  "7886355923031": {
+   "available": false,
+   "first_seen": "2026-11-25T14:45:35.907890+00:00",
+   "handle": "abrasive-systainer-sys-stf-d90-93-v-gr-set",
+   "id": "7886355923031",
+   "listed": true,
+   "price": 68.0,
+   "title": "Abrasive Systainer SYS-STF D90/93 V GR Set",
+   "type": "Other"
+  },
+  "7886356971607": {
+   "available": false,
+   "first_seen": "2026-11-25T14:45:35.907889+00:00",
+   "handle": "upholstery-nozzle-d-36-pd",
+   "id": "7886356971607",
+   "listed": true,
+   "price": 9.6,
+   "title": "Upholstery nozzle D 36 PD",
+   "type": "Other"
+  },
+  "7886358413399": {
+   "available": false,
+   "first_seen": "2026-11-25T14:45:35.907887+00:00",
+   "handle": "saw-blade-216x2-3x30-tf64",
+   "id": "7886358413399",
+   "listed": true,
+   "price": 119.2,
+   "title": "Saw Blade 216x2,3x30 TF64",
+   "type": "Other"
+  },
+  "7886359494743": {
+   "available": false,
+   "first_seen": "2026-11-25T14:45:35.907883+00:00",
+   "handle": "bluetooth-module-set-ct-f-i-m-set",
+   "id": "7886359494743",
+   "listed": true,
+   "price": 70.4,
+   "title": "Bluetooth Module set CT-F I/M Set",
    "type": "Other"
   },
   "81040310293": {

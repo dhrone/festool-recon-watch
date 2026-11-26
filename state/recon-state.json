@@ -1,7 +1,7 @@
 {
  "backoff_s": 0,
  "backoff_until": null,
- "catalogue_at": "2026-11-26T10:15:35.381817+00:00",
+ "catalogue_at": "2026-11-26T11:15:38.754948+00:00",
  "home": {
   "handle": null,
   "title": null
@@ -1633,7 +1633,7 @@
    "handle": "mobile-workshop-mw-1000-basic",
    "id": "4364131500119",
    "listed": true,
-   "price": 580.0,
+   "price": 435.0,
    "title": "Mobile workshop MW 1000 Basic",
    "type": "Other"
   },
@@ -3653,7 +3653,7 @@
    "handle": "summer-systainer-sys-187-us",
    "id": "7299509485655",
    "listed": true,
-   "price": 99.0,
+   "price": 74.25,
    "title": "Summer Systainer\u00b3 SYS 187 US",
    "type": "Other"
   },
@@ -3913,7 +3913,7 @@
    "handle": "dust-extractor-cleantec-ct-48-ei-ac-hepa",
    "id": "7412814118999",
    "listed": true,
-   "price": 839.3,
+   "price": 719.4,
    "title": "Dust Extractor CLEANTEC CT 48 EI AC HEPA",
    "type": "Vac"
   },
@@ -4733,7 +4733,7 @@
    "handle": "planex-easy-lhs-e-225-eq-cb",
    "id": "7723248549975",
    "listed": true,
-   "price": 436.87,
+   "price": 349.5,
    "title": "PLANEX easy LHS-E 225 EQ-CB",
    "type": "Sander"
   },
@@ -5003,7 +5003,7 @@
    "handle": "summer-systainer-sys-187-us-copy",
    "id": "7886342881367",
    "listed": true,
-   "price": 99.0,
+   "price": 74.25,
    "title": "Summer Systainer\u00b3 SYS 187 Canada",
    "type": "Other"
   },

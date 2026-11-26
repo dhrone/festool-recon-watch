@@ -1,7 +1,7 @@
 {
  "backoff_s": 0,
  "backoff_until": null,
- "catalogue_at": "2026-11-26T03:15:35.708667+00:00",
+ "catalogue_at": "2026-11-26T04:15:28.768072+00:00",
  "home": {
   "handle": null,
   "title": null
@@ -3968,7 +3968,7 @@
    "type": "Drill"
   },
   "7436555255895": {
-   "available": true,
+   "available": false,
    "first_seen": "2026-11-10T13:27:36.328501+00:00",
    "handle": "etsc-2-150-4-0-i-plus",
    "id": "7436555255895",
@@ -5008,7 +5008,7 @@
    "type": "Other"
   },
   "7886345338967": {
-   "available": true,
+   "available": false,
    "first_seen": "2026-11-25T13:45:35.030349+00:00",
    "handle": "abrasives-d150-p180-gr-100-granat",
    "id": "7886345338967",
@@ -5038,7 +5038,7 @@
    "type": "Other"
   },
   "7886350286935": {
-   "available": true,
+   "available": false,
    "first_seen": "2026-11-25T14:45:35.907893+00:00",
    "handle": "abrasives-d150-p320-gr-100-granat-copy",
    "id": "7886350286935",
@@ -5048,7 +5048,7 @@
    "type": "Other"
   },
   "7886350483543": {
-   "available": true,
+   "available": false,
    "first_seen": "2026-11-25T14:45:35.907896+00:00",
    "handle": "abrasives-d150-p320-gr-100-granat-copy-copy",
    "id": "7886350483543",

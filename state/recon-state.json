@@ -1,7 +1,7 @@
 {
  "backoff_s": 0,
  "backoff_until": null,
- "catalogue_at": "2026-11-26T14:15:36.571695+00:00",
+ "catalogue_at": "2026-11-26T15:15:30.588177+00:00",
  "home": {
   "handle": null,
   "title": null
@@ -3438,7 +3438,7 @@
    "type": "Saw"
   },
   "6997520973911": {
-   "available": true,
+   "available": false,
    "first_seen": "2026-11-10T13:27:36.328680+00:00",
    "handle": "cordless-drill-txs-18-basic",
    "id": "6997520973911",

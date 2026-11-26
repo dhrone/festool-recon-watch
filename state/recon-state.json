@@ -1,7 +1,7 @@
 {
  "backoff_s": 0,
  "backoff_until": null,
- "catalogue_at": "2026-11-26T01:15:35.261209+00:00",
+ "catalogue_at": "2026-11-26T02:15:32.244760+00:00",
  "home": {
   "handle": null,
   "title": null
@@ -2488,7 +2488,7 @@
    "type": "Sander"
   },
   "6578572591191": {
-   "available": true,
+   "available": false,
    "first_seen": "2026-11-10T13:27:36.329001+00:00",
    "handle": "cordless-track-saw-tsc-55-5-2-kebi-f-plus",
    "id": "6578572591191",
@@ -2888,7 +2888,7 @@
    "type": "Router"
   },
   "6798279508055": {
-   "available": true,
+   "available": false,
    "first_seen": "2026-11-10T13:27:36.328861+00:00",
    "handle": "cleantec-ct-15-e-hepa",
    "id": "6798279508055",
@@ -4908,7 +4908,7 @@
    "type": "Saw"
   },
   "7846396887127": {
-   "available": true,
+   "available": false,
    "first_seen": "2026-11-10T13:27:36.328148+00:00",
    "handle": "ksc-60-eb-basic",
    "id": "7846396887127",

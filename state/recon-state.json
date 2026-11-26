@@ -1,7 +1,7 @@
 {
  "backoff_s": 0,
  "backoff_until": null,
- "catalogue_at": "2026-11-26T13:15:46.008188+00:00",
+ "catalogue_at": "2026-11-26T14:15:36.571695+00:00",
  "home": {
   "handle": null,
   "title": null
@@ -2008,7 +2008,7 @@
    "type": "Saw"
   },
   "4688143908951": {
-   "available": true,
+   "available": false,
    "first_seen": "2026-11-10T13:27:36.329118+00:00",
    "handle": "random-orbital-sander-ets-125-req-plus",
    "id": "4688143908951",

@@ -1,7 +1,7 @@
 {
  "backoff_s": 0,
  "backoff_until": null,
- "catalogue_at": "2026-11-27T11:15:37.181746+00:00",
+ "catalogue_at": "2026-11-27T12:15:37.328263+00:00",
  "home": {
   "handle": null,
   "title": null
@@ -3463,7 +3463,7 @@
    "handle": "copy-of-cordless-sander-etsc-125-li-3-1-i-plus-1",
    "id": "7007314772055",
    "listed": true,
-   "price": 359.4,
+   "price": 299.5,
    "title": "Cordless Sander ETSC 125 Li 3,1 I-Plus",
    "type": "Sander"
   },
@@ -3713,7 +3713,7 @@
    "handle": "cordless-orbital-sander-rtsc-400-3-0-i-plus",
    "id": "7324325904471",
    "listed": true,
-   "price": 479.2,
+   "price": 359.4,
    "title": "Cordless orbital sander RTSC 400 3,0 I-Plus",
    "type": "Sander"
   },
@@ -4253,7 +4253,7 @@
    "handle": "turbo-dust-bag-set-tfs-rs-400",
    "id": "7521080737879",
    "listed": true,
-   "price": 27.14,
+   "price": 16.0,
    "title": "Turbo Dust Bag Set TFS-RS 400",
    "type": "Other"
   },
@@ -4573,7 +4573,7 @@
    "handle": "stf-115x228-p320-gr-100x",
    "id": "7521101185111",
    "listed": true,
-   "price": 46.2,
+   "price": 38.5,
    "title": "STF 115X228 P320 GR 100X",
    "type": "Other"
   },
@@ -4823,7 +4823,7 @@
    "handle": "grit-abrasives-115x228-p240-gr-100-granat",
    "id": "7805106290775",
    "listed": true,
-   "price": 65.6,
+   "price": 41.0,
    "title": "Grit Abrasives 115x228 P240 GR/100 Granat",
    "type": "Other"
   },
@@ -4833,7 +4833,7 @@
    "handle": "turbo-dust-bag-set-tfs-es-150",
    "id": "7805106978903",
    "listed": true,
-   "price": 27.2,
+   "price": 17.0,
    "title": "Turbo Dust Bag Set TFS-ES 150",
    "type": "Other"
   },
@@ -4843,7 +4843,7 @@
    "handle": "grit-abrasives-115x228-p40-gr-50-granat",
    "id": "7805108125783",
    "listed": true,
-   "price": 41.6,
+   "price": 26.0,
    "title": "Grit Abrasives 115x228 P40 GR/50 Granat",
    "type": "Other"
   },
@@ -4993,7 +4993,7 @@
    "handle": "adapter-ad-ef-m14-80-ergofix",
    "id": "7886342684759",
    "listed": true,
-   "price": 19.2,
+   "price": 12.0,
    "title": "Adapter AD-EF-M14/80 ErgoFix",
    "type": ""
   },

@@ -1,7 +1,7 @@
 {
  "backoff_s": 0,
  "backoff_until": null,
- "catalogue_at": "2026-11-27T00:15:36.541664+00:00",
+ "catalogue_at": "2026-11-27T01:15:35.161872+00:00",
  "home": {
   "handle": null,
   "title": null
@@ -2648,7 +2648,7 @@
    "type": "Vac"
   },
   "6629358403671": {
-   "available": true,
+   "available": false,
    "first_seen": "2026-11-10T13:27:36.328945+00:00",
    "handle": "cordless-track-saw-tsc-55-keb-f-basic",
    "id": "6629358403671",
@@ -3998,7 +3998,7 @@
    "type": "Sander"
   },
   "7436557090903": {
-   "available": true,
+   "available": false,
    "first_seen": "2026-11-10T13:27:36.328490+00:00",
    "handle": "etsc-2-125-basic",
    "id": "7436557090903",

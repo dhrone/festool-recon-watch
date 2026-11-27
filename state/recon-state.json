@@ -1,7 +1,7 @@
 {
  "backoff_s": 0,
  "backoff_until": null,
- "catalogue_at": "2026-11-27T12:15:37.328263+00:00",
+ "catalogue_at": "2026-11-27T13:15:38.850382+00:00",
  "home": {
   "handle": null,
   "title": null
@@ -2638,7 +2638,7 @@
    "type": "Vac"
   },
   "6597016125527": {
-   "available": true,
+   "available": false,
    "first_seen": "2026-11-10T13:27:36.328949+00:00",
    "handle": "dust-extractor-cleantec-ct-26-e-hepa",
    "id": "6597016125527",

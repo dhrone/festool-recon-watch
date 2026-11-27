@@ -1,7 +1,7 @@
 {
  "backoff_s": 0,
  "backoff_until": null,
- "catalogue_at": "2026-11-27T16:15:40.632418+00:00",
+ "catalogue_at": "2026-11-27T17:15:31.115157+00:00",
  "home": {
   "handle": null,
   "title": null
@@ -3468,7 +3468,7 @@
    "type": "Sander"
   },
   "7020347064407": {
-   "available": true,
+   "available": false,
    "first_seen": "2026-11-10T13:27:36.328670+00:00",
    "handle": "cordless-delta-sander-dtsc-400-3-0-i-plus",
    "id": "7020347064407",

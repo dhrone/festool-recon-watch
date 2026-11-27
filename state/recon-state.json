@@ -1,7 +1,7 @@
 {
  "backoff_s": 0,
  "backoff_until": null,
- "catalogue_at": "2026-11-26T23:15:35.241827+00:00",
+ "catalogue_at": "2026-11-27T00:15:36.541664+00:00",
  "home": {
   "handle": null,
   "title": null
@@ -2968,7 +2968,7 @@
    "type": "Drill"
   },
   "6838107897943": {
-   "available": true,
+   "available": false,
    "first_seen": "2026-11-10T13:27:36.328831+00:00",
    "handle": "cordless-drill-quadrive-tpc-18-4-hpc-4-0-i-set",
    "id": "6838107897943",
@@ -3678,7 +3678,7 @@
    "type": "Other"
   },
   "7309270188119": {
-   "available": true,
+   "available": false,
    "first_seen": "2026-11-10T13:27:36.328599+00:00",
    "handle": "impact-driver-and-drill-set-tid18-hpc-4-0i-set-t18",
    "id": "7309270188119",

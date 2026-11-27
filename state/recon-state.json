@@ -1,7 +1,7 @@
 {
  "backoff_s": 0,
  "backoff_until": null,
- "catalogue_at": "2026-11-27T02:15:32.107157+00:00",
+ "catalogue_at": "2026-11-27T03:15:33.547730+00:00",
  "home": {
   "handle": null,
   "title": null
@@ -3108,7 +3108,7 @@
    "type": "Other"
   },
   "6911385141335": {
-   "available": true,
+   "available": false,
    "first_seen": "2026-11-10T13:27:36.328791+00:00",
    "handle": "energy-set-sys-18v-2x5-0-tcl-6-duo",
    "id": "6911385141335",

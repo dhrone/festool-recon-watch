@@ -1,7 +1,7 @@
 {
  "backoff_s": 0,
  "backoff_until": null,
- "catalogue_at": "2026-11-27T22:15:36.057402+00:00",
+ "catalogue_at": "2026-11-27T23:15:31.964671+00:00",
  "home": {
   "handle": null,
   "title": null
@@ -3188,7 +3188,7 @@
    "type": "Drill"
   },
   "6919495319639": {
-   "available": true,
+   "available": false,
    "first_seen": "2026-11-10T13:27:36.328763+00:00",
    "handle": "tid18-hpc-i-settpc18-us",
    "id": "6919495319639",

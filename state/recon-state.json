@@ -1,7 +1,7 @@
 {
  "backoff_s": 0,
  "backoff_until": null,
- "catalogue_at": "2026-11-27T18:15:29.419795+00:00",
+ "catalogue_at": "2026-11-27T19:15:33.305482+00:00",
  "home": {
   "handle": null,
   "title": null
@@ -4048,7 +4048,7 @@
    "type": "Table"
   },
   "7480297455703": {
-   "available": true,
+   "available": false,
    "first_seen": "2026-11-10T13:27:36.328472+00:00",
    "handle": "dust-extractor-cleantec-ct-midi-i-hepa",
    "id": "7480297455703",
@@ -4588,7 +4588,7 @@
    "type": "Other"
   },
   "7521102069847": {
-   "available": true,
+   "available": false,
    "first_seen": "2026-11-10T13:27:36.328298+00:00",
    "handle": "sortainer-sys-4-tl-sort-3",
    "id": "7521102069847",

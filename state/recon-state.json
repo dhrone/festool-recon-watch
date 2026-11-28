@@ -1,7 +1,7 @@
 {
  "backoff_s": 0,
  "backoff_until": null,
- "catalogue_at": "2026-11-28T12:15:38.205745+00:00",
+ "catalogue_at": "2026-11-28T13:15:38.132580+00:00",
  "home": {
   "handle": null,
   "title": null
@@ -2328,7 +2328,7 @@
    "type": "Drill"
   },
   "6566873563223": {
-   "available": true,
+   "available": false,
    "first_seen": "2026-11-10T13:27:36.329053+00:00",
    "handle": "cordless-jigsaw-carvex-psbc-420-eb-basic",
    "id": "6566873563223",

@@ -1,7 +1,7 @@
 {
  "backoff_s": 0,
  "backoff_until": null,
- "catalogue_at": "2026-11-28T00:15:40.650113+00:00",
+ "catalogue_at": "2026-11-28T01:15:38.106212+00:00",
  "home": {
   "handle": null,
   "title": null
@@ -3478,7 +3478,7 @@
    "type": "Sander"
   },
   "7020347752535": {
-   "available": true,
+   "available": false,
    "first_seen": "2026-11-10T13:27:36.328667+00:00",
    "handle": "cordless-impact-drill-tid-18-hpc-4-0-i-plus-1",
    "id": "7020347752535",
